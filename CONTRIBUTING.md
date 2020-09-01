@@ -14,13 +14,13 @@ In any case, please:
 
 - **Read** the [code of conduct](https://gitlab.com/pascalpepe/django-miniblog/-/blob/main/CODE_OF_CONDUCT.md).
   It's nothing scary.
-- [Open an issue on GitLab](https://gitlab.com/pascalpepe/django-miniblog/-/issues)
-  **before** starting anything new, just to make sure that it is not already a
-  work in progress. The project is still very young, there are a lot of
-  features already planned and being worked on.
+- **Before** starting anything new, [open an issue on GitLab](https://gitlab.com/pascalpepe/django-miniblog/-/issues)
+  just to make sure that it is not already a work in progress. The project is
+  still very young, there are a lot of features already planned and being
+  worked on.
 - **Do not** use GitLab Issues for requesting support. After making sure that
-  your question is not covered in the documentation, you can send an email at
-  help@pascalpepe.com.
+  your question is not covered in the documentation, feel free to send an
+  email at help@pascalpepe.com.
 - **Be patient** and wait at least a couple of days before sending a follow-up
   email or comment.
 
@@ -54,7 +54,7 @@ After your suggestion is approved, and if you want to work on it yourself:
 3. Create a new branch dedicated to your work. When naming the branch,
    prefix it with its related issue number. For example:
    ``1234-short-descriptive-name``.
-4. Push the branch with your work on your own repository.
+4. Push the branch with your work to your own repository.
 5. Open a merge request to the upstream repository. All merge requests must
    target the main branch.
 
@@ -107,17 +107,18 @@ all contributors must agree to the following
 In practice, this means that all contributions must be signed off by adding
 the following line at the end of the commit log message:
 
-    Signed-off-by: Random J Developer <random@developer.example.org>
+    Signed-off-by: [real name of contributor] <[valid email address]>
 
-Please use your real name and a valid email address. If you set your user.name and user.email git configs, you can sign your commit automatically with ``git commit -s``.
+If you set the ``user.name`` and ``user.email`` options in your Git
+configuration, you can automatically sign off commits with ``git commit -s``.
 
 ### Copyright
 
 This project does not require copyright assignment. All individual
 contributors retain copyright to their own contributions.
 
-If you make **substantial** changes to an existing file, feel free add a
-copyright notice in the header **after** the existing ones:
+If you make substantial changes to an existing file, feel free add a copyright
+notice in the header after the existing ones:
 
     Copyright (C) [yyyy] [name of copyright owner]
 

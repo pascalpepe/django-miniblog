@@ -62,7 +62,7 @@ After your suggestion is approved, and if you want to work on it yourself:
 
 ### Developer Certificate of Origin (DCO)
 
-This project does not required a Contributor License Agreement (CLA). However,
+This project does not require a Contributor License Agreement (CLA). However,
 all contributors must agree to the following
 [Developer Certificate of Origin](https://developercertificate.org/) (DCO):
 
@@ -117,8 +117,8 @@ configuration, you can automatically sign off commits with ``git commit -s``.
 This project does not require copyright assignment. All individual
 contributors retain copyright to their own contributions.
 
-If you make substantial changes to an existing file, feel free add a copyright
-notice in the header after the existing ones:
+If you make substantial changes to an existing file, feel free to add a
+copyright notice in the header after the existing ones:
 
     Copyright (C) [yyyy] [name of copyright owner]
 

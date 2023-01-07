@@ -24,14 +24,14 @@ class PostModelTest(TestCase):
     @classmethod
     def setUpTestData(cls):
         """Create objects for all tests."""
-        cls.post = Post.objects.create(title='Foo', content='bar')
+        cls.post = Post.objects.create(title="Foo", content="bar")
 
     def test_title_max_length(self):
-        max_length = self.post._meta.get_field('title').max_length
+        max_length = self.post._meta.get_field("title").max_length
         self.assertEquals(max_length, 255)
 
     def test_object_string_representation(self):
         self.assertEquals(str(self.post), self.post.title)
 
     def test_get_absolute_url(self):
-        self.assertEquals(self.post.get_absolute_url(), '/blog/1/')
+        self.assertEquals(self.post.get_absolute_url(), "/blog/1/")

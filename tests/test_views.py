@@ -25,34 +25,34 @@ class PostDetailViewTest(TestCase):
     @classmethod
     def setUpTestData(cls):
         """Create objects for all tests."""
-        cls.post = Post.objects.create(title='Foo', content='bar')
+        cls.post = Post.objects.create(title="Foo", content="bar")
 
     def test_route_from_name(self):
         response = self.client.get(self.post.get_absolute_url())
         self.assertEqual(response.status_code, 200)
 
     def test_route_from_path(self):
-        response = self.client.get('/blog/1/')
+        response = self.client.get("/blog/1/")
         self.assertEqual(response.status_code, 200)
 
     def test_templates_used(self):
         response = self.client.get(self.post.get_absolute_url())
         self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response, 'miniblog/post_detail.html')
+        self.assertTemplateUsed(response, "miniblog/post_detail.html")
 
 
 class PostListViewTest(TestCase):
     """Tests for the post list view."""
 
     def test_route_from_name(self):
-        response = self.client.get(reverse('miniblog:post-list'))
+        response = self.client.get(reverse("miniblog:post-list"))
         self.assertEqual(response.status_code, 200)
 
     def test_route_from_path(self):
-        response = self.client.get('/blog/')
+        response = self.client.get("/blog/")
         self.assertEqual(response.status_code, 200)
 
     def test_templates_used(self):
-        response = self.client.get(reverse('miniblog:post-list'))
+        response = self.client.get(reverse("miniblog:post-list"))
         self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response, 'miniblog/post_list.html')
+        self.assertTemplateUsed(response, "miniblog/post_list.html")

@@ -13,4 +13,4 @@
 # limitations under the License.
 
 # Automatically load the default application configuration
-default_app_config = 'miniblog.apps.MiniBlogConfig'
+default_app_config = "miniblog.apps.MiniBlogConfig"

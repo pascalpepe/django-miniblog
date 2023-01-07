@@ -20,5 +20,5 @@ from django.utils.translation import gettext_lazy as _
 class MiniBlogConfig(AppConfig):
     """Default application configuration."""
 
-    name = 'miniblog'
-    verbose_name = _('Blog')
+    name = "miniblog"
+    verbose_name = _("Blog")

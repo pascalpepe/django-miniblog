@@ -31,16 +31,16 @@ class Post(models.Model):
 
     title = models.CharField(
         max_length=255,
-        verbose_name=_('title'),
+        verbose_name=_("title"),
     )
     content = models.TextField(
         blank=True,
-        verbose_name=_('content'),
+        verbose_name=_("content"),
     )
 
     class Meta:
-        verbose_name = _('post')
-        verbose_name_plural = _('posts')
+        verbose_name = _("post")
+        verbose_name_plural = _("posts")
 
     def __str__(self):
         """Return the object string representation."""
@@ -48,4 +48,4 @@ class Post(models.Model):
 
     def get_absolute_url(self):
         """Return the absolute URL of the post."""
-        return reverse('miniblog:post-detail', args=[str(self.id)])
+        return reverse("miniblog:post-detail", args=[str(self.id)])

@@ -17,9 +17,9 @@ from django.urls import path
 
 from miniblog import views
 
-app_name = 'miniblog'
+app_name = "miniblog"
 
 urlpatterns = [
-    path('<int:pk>/', views.PostDetail.as_view(), name='post-detail'),
-    path('', views.PostList.as_view(), name='post-list'),
+    path("<int:pk>/", views.PostDetail.as_view(), name="post-detail"),
+    path("", views.PostList.as_view(), name="post-list"),
 ]

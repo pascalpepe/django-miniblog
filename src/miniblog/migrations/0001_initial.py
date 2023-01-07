@@ -19,20 +19,27 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='Post',
+            name="Post",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('title', models.CharField(max_length=255, verbose_name='title')),
-                ('content', models.TextField(blank=True, verbose_name='content')),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("title", models.CharField(max_length=255, verbose_name="title")),
+                ("content", models.TextField(blank=True, verbose_name="content")),
             ],
             options={
-                'verbose_name': 'post',
-                'verbose_name_plural': 'posts',
+                "verbose_name": "post",
+                "verbose_name_plural": "posts",
             },
         ),
     ]

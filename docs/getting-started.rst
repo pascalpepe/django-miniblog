@@ -79,13 +79,13 @@ Quick start guide
 Settings
 --------
 
-Add ``'miniblog'`` to your ``INSTALLED_APPS`` setting:
+Add ``"miniblog"`` to your ``INSTALLED_APPS`` setting:
 
 .. code-block:: python
 
     INSTALLED_APPS = [
+        "miniblog",
         ...
-        'miniblog',
     ]
 
 URL configuration
@@ -99,7 +99,7 @@ Include the application URLconf in your project ``urls.py`` like this:
 
     urlpatterns = [
         ...
-        path('blog/', include('miniblog.urls')),
+        path("blog/", include('miniblog.urls')),
     ]
 
 Database

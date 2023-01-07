@@ -4,8 +4,19 @@ miniBlog 0.2.0 release notes
 
 *In development*
 
+
 GitLab to GitHub
 ================
 
 - Migrated the project source code from GitLab to GitHub.
 - Edited all links and references to point to `the GitHub repository <https://github.com/pascalpepe/django-miniblog>`_.
+
+
+Packaging
+=========
+
+- Moved the ``miniblog`` package to a ``src/`` directory.
+- Replaced ``setup.py`` and ``setup.cfg`` with ``pyproject.toml`` to follow the
+  latest recommendations of the `PyPA <https://www.pypa.io>`_.
+- Replaced setuptools with `Hatchling <https://hatch.pypa.io>`_ as the build
+  backend for the project.

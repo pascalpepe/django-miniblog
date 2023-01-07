@@ -110,7 +110,7 @@ Run ``python manage.py migrate`` to create the database tables.
 Create some posts
 -----------------
 
-Start the development server and visit http://127.0.0.1:8000/admin/ to create
+Start the development server and visit http://localhost:8000/admin/ to create
 a post. You will need to activate the
 `Django admin site <https://docs.djangoproject.com/en/dev/ref/contrib/admin/>`_
 for this.
@@ -118,4 +118,4 @@ for this.
 View your posts
 ---------------
 
-Visit http://127.0.0.1:8000/blog/ to view a list of your posts.
+Visit http://localhost:8000/blog/ to view a list of your posts.

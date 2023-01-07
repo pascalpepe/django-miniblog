@@ -1,6 +1,6 @@
-# French translation of miniBlog.
+# French translation of MiniBlog.
 #
-# Copyright (C) 2017-2020 Pascal Pepe
+# Copyright 2017-2023 Pascal Pepe
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,9 +17,9 @@
 # First translated by Pascal Pepe <contact@pascalpepe.fr>, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: miniBlog\n"
+"Project-Id-Version: MiniBlog\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-01 03:37-0500\n"
+"POT-Creation-Date: 2023-01-07 19:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Pascal Pepe <contact@pascalpepe.fr>\n"
 "Language-Team: \n"
@@ -29,22 +29,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: miniblog/apps.py:24
+#: src/miniblog/apps.py:24
 msgid "Blog"
 msgstr "Blog"
 
-#: miniblog/models.py:34
+#: src/miniblog/models.py:34
 msgid "title"
 msgstr "titre"
 
-#: miniblog/models.py:38
+#: src/miniblog/models.py:38
 msgid "content"
 msgstr "contenu"
 
-#: miniblog/models.py:42
+#: src/miniblog/models.py:42
 msgid "post"
 msgstr "article"
 
-#: miniblog/models.py:43
+#: src/miniblog/models.py:43
 msgid "posts"
 msgstr "articles"

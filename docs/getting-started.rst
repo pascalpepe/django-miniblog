@@ -65,11 +65,11 @@ Get the latest development version
    encounter new bugs in the development version.
 
 You can install the latest development version of this project from
-the `Git repository <https://gitlab.com/pascalpepe/django-miniblog>`_:
+the `Git repository <https://github.com/pascalpepe/django-miniblog>`_:
 
 .. code-block:: bash
 
-    pip install git+https://gitlab.com/pascalpepe/django-miniblog.git@main#egg=django-miniblog
+    pip install git+https://github.com/pascalpepe/django-miniblog.git@main#egg=django-miniblog
 
 ----
 

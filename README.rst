@@ -4,7 +4,7 @@ miniBlog
 
 .. image:: https://img.shields.io/pypi/l/django-miniblog
    :alt: Apache-2.0
-   :target: https://gitlab.com/pascalpepe/django-miniblog/blob/main/LICENSE
+   :target: https://github.com/pascalpepe/django-miniblog/blob/main/LICENSE
 
 .. image:: https://img.shields.io/pypi/v/django-miniblog
    :alt: PyPI
@@ -18,17 +18,12 @@ miniBlog
    :alt: Django
    :target: https://pypi.org/project/django-miniblog/
 
-.. image:: https://gitlab.com/pascalpepe/django-miniblog/badges/main/pipeline.svg
-   :alt: Pipeline
-   :target: https://gitlab.com/pascalpepe/django-miniblog/-/pipelines
-
 miniBlog is a Django application for managing a simple blog.
 
-:Home: https://www.pascalpepe.com/en/projects/django-miniblog/
-:Documentation: https://pascalpepe.gitlab.io/django-miniblog
-:Source code: https://gitlab.com/pascalpepe/django-miniblog
-:Issue tracker: https://gitlab.com/pascalpepe/django-miniblog/issues
-
+:Home: https://github.com/pascalpepe/django-miniblog#readme
+:Documentation: https://github.com/pascalpepe/django-miniblog/tree/main/docs
+:Source code: https://github.com/pascalpepe/django-miniblog
+:Issue tracker: https://github.com/pascalpepe/django-miniblog/issues
 
 Status
 ======
@@ -53,12 +48,11 @@ Documentation
 =============
 
 The documentation of this project is available at
-https://pascalpepe.gitlab.io/django-miniblog.
+https://github.com/pascalpepe/django-miniblog/tree/main/docs.
 
-- `Getting started <https://pascalpepe.gitlab.io/django-miniblog/getting-started.html>`_
-- `Module references <https://pascalpepe.gitlab.io/django-miniblog/references/index.html>`_
-- `Release notes <https://pascalpepe.gitlab.io/django-miniblog/releases/index.html>`_
-
+- `Getting started <https://github.com/pascalpepe/django-miniblog/blob/main/docs/getting-started.rst>`_
+- `Module references <https://github.com/pascalpepe/django-miniblog/tree/main/docs/references>`_
+- `Release notes <https://github.com/pascalpepe/django-miniblog/tree/main/docs/releases>`_
 
 Licenses
 ========

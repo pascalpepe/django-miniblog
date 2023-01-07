@@ -10,7 +10,7 @@ dist/
 # Unit test / coverage reports
 *.py,cover
 .coverage
-.tox/
+.coverage.*
 coverage.json
 coverage.xml
 htmlcov/
@@ -21,9 +21,6 @@ db.sqlite3
 
 # Sphinx
 docs/_build/
-
-# GitLab Pages
-public/
 
 # pyenv
 .python-version

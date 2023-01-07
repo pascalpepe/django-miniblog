@@ -6,10 +6,10 @@ miniBlog is a reusable Django application for managing a simple blog.
 
 ----
 
-:Home: https://www.pascalpepe.com/en/projects/django-miniblog/
-:Documentation: https://pascalpepe.gitlab.io/django-miniblog
-:Source code: https://gitlab.com/pascalpepe/django-miniblog
-:Issue tracker: https://gitlab.com/pascalpepe/django-miniblog/issues
+:Home: https://github.com/pascalpepe/django-miniblog#readme
+:Documentation: https://github.com/pascalpepe/django-miniblog/tree/main/docs
+:Source code: https://github.com/pascalpepe/django-miniblog
+:Issue tracker: https://github.com/pascalpepe/django-miniblog/issues
 
 .. note::
 

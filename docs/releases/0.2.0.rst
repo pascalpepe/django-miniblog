@@ -1,0 +1,11 @@
+=============================
+miniBlog 0.2.0 release notes
+=============================
+
+*In development*
+
+GitLab to GitHub
+================
+
+- Migrated the project source code from GitLab to GitHub.
+- Edited all links and references to point to `the GitHub repository <https://github.com/pascalpepe/django-miniblog>`_.

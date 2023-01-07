@@ -7,6 +7,7 @@ Views
 
 .. autoclass:: miniblog.views.PostDetail
    :members:
+   :noindex:
 
 
 ``PostList``
@@ -14,3 +15,4 @@ Views
 
 .. autoclass:: miniblog.views.PostList
    :members:
+   :noindex:

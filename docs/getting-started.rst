@@ -2,16 +2,11 @@
 Getting started
 ===============
 
-miniBlog is free and open-source software, distributed under
+MiniBlog is free and open-source software, distributed under
 the `Apache License 2.0 <http://www.apache.org/licenses/LICENSE-2.0>`_.
 Being a reusable Django application, you will need to install Python and
 Django before you can use it.
 
-.. contents::
-   :local:
-   :depth: 2
-
-----
 
 Requirements
 ============
@@ -32,17 +27,15 @@ Django  Python
 We highly recommend the latest release of each series for both Python and
 Django.
 
-
 Python virtual environment
 --------------------------
 
-It is highly recommended to install Django, miniBlog, and all other Python
+It is highly recommended to install Django, MiniBlog, and all other Python
 dependencies of your project within
 a `Python virtual environment <https://docs.python.org/3/library/venv.html>`_.
 
-----
 
-Install miniBlog
+Install MiniBlog
 ================
 
 Get the latest release from PyPI
@@ -54,7 +47,6 @@ the Python Package Index. You can install the latest release with pip:
 .. code-block:: bash
 
     pip install django-miniblog
-
 
 Get the latest development version
 ----------------------------------
@@ -71,7 +63,6 @@ the `Git repository <https://github.com/pascalpepe/django-miniblog>`_:
 
     pip install git+https://github.com/pascalpepe/django-miniblog.git@main#egg=django-miniblog
 
-----
 
 Quick start guide
 =================

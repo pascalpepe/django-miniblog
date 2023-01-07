@@ -7,3 +7,4 @@ Models
 
 .. autoclass:: miniblog.models.Post
    :members:
+   :noindex:

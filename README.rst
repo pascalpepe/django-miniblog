@@ -18,6 +18,10 @@ miniBlog
    :alt: Django
    :target: https://pypi.org/project/django-miniblog/
 
+.. image:: https://github.com/pascalpepe/django-miniblog/actions/workflows/ci.yml/badge.svg
+   :alt: CI
+   :target: https://github.com/pascalpepe/django-miniblog/actions/workflows/ci.yml
+
 miniBlog is a Django application for managing a simple blog.
 
 :Home: https://github.com/pascalpepe/django-miniblog#readme
